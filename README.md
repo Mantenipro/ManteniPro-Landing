@@ -6,23 +6,28 @@
 
 ~~~
 $ git status
+
 Enumera todos los archivos nuevos o modificados que se deben confirmar
 ~~~
 ~~~
 $ git diff
+
 Muestra las diferencias de archivos que no se han enviado aún al area de espera
 ~~~
 ~~~
 $ git add [file]
+
 Toma una instantánea del archivo para preparar la versión
 ~~~
 ~~~
 $ git diff --staged
+
 Muestra las diferencias del archivo entre el área de espera y la última versión del archivo
 ~~~
 
 ~~~
 $ git reset [file]
+
 Mueve el archivo del área de espera, pero preserva su contenido
 ~~~
 ~~~
@@ -36,10 +41,12 @@ Registra las instantáneas del archivo permanentemente en el historial de versi�
 #### Inicia un nuevo repositorio u obtiene uno de una URL existente
 ~~~
 $ git init [project -name]
+
 Crea un nuevo repositorio local con el nombre especificado
 ~~~
 ~~~
 $ git clone [url]
+
 Descarga un proyecto y toda su historia de versión
 ~~~
 
@@ -49,19 +56,23 @@ Descarga un proyecto y toda su historia de versión
 
 ~~~
 $ git branch
+
 Enumera todas las ramas en el repositorio actual
 ~~~
 ~~~
 $ git branch [branch-name]
+
 Crea una nueva rama
 ~~~
 
 ~~~
 $ git checkout [branch-name]
+
 Cambia a la rama especificada y actualiza el directorio activo
 ~~~
 ~~~
 $ git merge [branch]
+
 Combina el historial de la rama especificada con la rama actual
 ~~~
 ~~~
@@ -72,7 +83,6 @@ Borra la rama especificada
 
 
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
