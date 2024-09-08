@@ -12,10 +12,9 @@ export default function Home() {
       <Nav />
       <div className='h-dvh'>
         <Hero />
-      </div>
-      <div className='mt-[15%]'>
         <KeyBenefits />
       </div>
+      
     </main>
   )
 }
