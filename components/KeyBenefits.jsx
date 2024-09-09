@@ -37,7 +37,7 @@ const KeyBenefits = () => {
         </h2>
         <p className={`text-lg mb-12 ${sourceSans3.className}`}>
         </p>
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {benefits.map((benefit, index) => (
             <div
               key={index}
