@@ -1,4 +1,4 @@
-import PriceCard from '@/components/PriceCard'
+import PriceCard from '/components/PriceCard'
 
 export default function PriceSection() {
 
@@ -8,8 +8,8 @@ export default function PriceSection() {
       price: '100',
       description:'Ideal para pequeñas empresas o proyectos que están comenzando.',
       btnTxt: '¡Agenda tu Demo!',
-      icon: '/icon/check-icon-dark.png',
-      featureTitle: 'Incluye Básico',
+      icon: 'check-icon-dark.png',
+      featureTitle: 'Incluye Básico:',
       features:[
         {
           title: 'Gestión de Incidencias Limitada:', 
@@ -35,7 +35,7 @@ export default function PriceSection() {
       price: '500',
       description:'Perfecto para equipos que necesitan más capacidad y características avanzadas.',
       btnTxt: '¡Agenda tu Demo!',
-      icon: '/icon/check-icon-light.png',
+      icon: 'check-icon-light.png',
       featureTitle: 'Todo lo Básico, además de:',
       features:[
         {
@@ -59,7 +59,7 @@ export default function PriceSection() {
   ];
 
   return (
-    <section className="bg-white rounded-lg border-2 max-w-screen-2xl mx-auto py-16 px-4 ">
+    <section className="bg-white border-2 max-w-screen-2xl mx-auto py-16 px-4 ">
         <h1 className="text-3xl font-medium mb-6 text-center">
           ¡Conoce Mantenipro hoy mismo!
         </h1>
@@ -67,7 +67,8 @@ export default function PriceSection() {
           Con Mantenipro, puedes empezar con una prueba gratuita de 30 días para explorar todas las funciones y decidir si se ajusta a tus necesidades.
         </p>
       {/* Cards */}
-      <div className='flex flex-wrap gap-10 justify-center '>
+      <div className='flex flex-wrap gap-8 justify-center border-4 ' >
+      {/* <div className='grid grid-cols-1 md:grid-cols-2 border-4 '> */}
         {
           cardDetails.map((card, index) => (
           
@@ -79,7 +80,7 @@ export default function PriceSection() {
               btnTxt={card.btnTxt}
               icon={card.icon}
               featureTitle={card.featureTitle}
-              features={card.features} // Pasa las features al componente
+              features={card.features}
             />
           ))
         }
