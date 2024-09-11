@@ -59,16 +59,15 @@ export default function PriceSection() {
   ];
 
   return (
-    <section className="bg-white border-2 max-w-screen-2xl mx-auto py-16 px-4 ">
-        <h1 className="text-3xl font-medium mb-6 text-center">
+    <section className="max-w-screen-2xl mx-auto py-16 px-4 ">
+        <h1 className="text-4xl font-medium mb-6 text-center">
           ¡Conoce Mantenipro hoy mismo!
         </h1>
-        <p className="text-center text-gray-600 text-lg mb-12">
+        <p className="text-gray-600 text-xl mb-12 max-w-screen-lg text-center m-auto">
           Con Mantenipro, puedes empezar con una prueba gratuita de 30 días para explorar todas las funciones y decidir si se ajusta a tus necesidades.
         </p>
       {/* Cards */}
-      <div className='flex flex-wrap gap-8 justify-center border-4 ' >
-      {/* <div className='grid grid-cols-1 md:grid-cols-2 border-4 '> */}
+      <div className='flex flex-wrap gap-10 justify-center' >
         {
           cardDetails.map((card, index) => (
           
