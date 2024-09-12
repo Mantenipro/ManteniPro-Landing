@@ -1,4 +1,6 @@
 import PriceCard from '/components/PriceCard'
+import { Source_Sans_3 } from 'next/font/google'
+const sourceSans3 = Source_Sans_3({ subsets: ['latin'] })
 
 export default function PriceSection() {
   const cardDetails = [
@@ -61,10 +63,12 @@ export default function PriceSection() {
 
   return (
     <section className='mx-auto max-w-screen-2xl px-4 py-16'>
-      <h1 className='mb-6 text-center text-4xl font-medium'>
+      <h2 className='mb-6 text-center text-4xl font-medium'>
         ¡Conoce Mantenipro hoy mismo!
-      </h1>
-      <p className='m-auto mb-12 max-w-screen-lg text-center text-xl text-gray-600'>
+      </h2>
+      <p
+        className={`m-auto mb-12 max-w-screen-lg text-center text-2xl text-gray-600 ${sourceSans3.className}`}
+      >
         Con Mantenipro, puedes empezar con una prueba gratuita de 30 días para
         explorar todas las funciones y decidir si se ajusta a tus necesidades.
       </p>
