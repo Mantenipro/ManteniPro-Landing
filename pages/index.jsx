@@ -3,6 +3,7 @@ import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import KeyBenefits from '@/components/KeyBenefits'
 import HowWork from '@/components/HowWork'
+import PriceSection from '@/components/PriceSection'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 const sourceSans3 = Source_Sans_3({ subsets: ['latin'] })
@@ -14,7 +15,6 @@ export default function Home() {
       <div className='h-dvh'>
         <Hero />
         <KeyBenefits />
-        <HowWork />
       </div>
     </main>
   )
