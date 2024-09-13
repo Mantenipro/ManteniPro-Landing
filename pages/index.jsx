@@ -15,6 +15,8 @@ export default function Home() {
       <div className='h-dvh'>
         <Hero />
         <KeyBenefits />
+        <HowWork />
+        <PriceSection />
       </div>
     </main>
   )
