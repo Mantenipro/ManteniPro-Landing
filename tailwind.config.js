@@ -12,6 +12,11 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "azulPersonal": "#31416D",
+        "azulPersonalHover": "#618CD0",
+        "azulPersonalLight": "#E6F0F3",
+      },
     },
   },
   plugins: [],
