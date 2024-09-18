@@ -14,6 +14,8 @@ module.exports = {
       },
       colors: {
         "azulPersonal": "#31416D",
+        "azulPersonalHover": "#618CD0",
+        "azulPersonalLight": "#E6F0F3",
       },
     },
   },

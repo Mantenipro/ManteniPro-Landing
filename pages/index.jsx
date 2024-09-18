@@ -2,7 +2,9 @@ import { Montserrat, Source_Sans_3 } from 'next/font/google'
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import KeyBenefits from '@/components/KeyBenefits'
+import HowWork from '@/components/HowWork'
 import PriceSection from '@/components/PriceSection'
+import Footer from '@/components/Footer'
 import AboutUs from '@/components/AboutUs'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
@@ -15,11 +17,11 @@ export default function Home() {
       <div className='h-dvh'>
         <Hero />
         <KeyBenefits />
+        <HowWork />
         <AboutUs/>
         <PriceSection />
-        
+        <Footer />
       </div>
-      
     </main>
   )
 }
