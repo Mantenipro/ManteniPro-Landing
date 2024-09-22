@@ -14,7 +14,7 @@ export default function PriceCard({
   return (
     <div
       className={clsx(
-        'flex max-w-screen-sm flex-1 flex-col rounded-lg border-2 border-[#3C5191] p-5 transition-transform duration-300 lg:hover:scale-105',
+        'flex max-w-screen-sm flex-1 flex-col rounded-lg border-2 border-gray p-5 transition-transform duration-300 lg:hover:scale-105',
         {
           'bg-[#3C5191] text-slate-100': title === 'Avanzado'
         }

@@ -29,23 +29,19 @@ const KeyBenefits = () => {
   return (
     <section className="py-16 ">
       <div className="container mx-auto text-center">
-        <h2 className={`text-3xl font-medium mb-6 ${montserrat.className}`}>
-          Simplifica las solicitudes de trabajo y resuélvelas
+        <h2 className={`text-2xl md:text-4xl font-medium mb-6 p-2 ${montserrat.className}`}>
+          Simplifica las solicitudes de trabajo y resuélvelas  más rápido
         </h2>
-        <h2 className={`text-3xl font-medium mb-6 ${montserrat.className}`}>
-          más rápido
-        </h2>
-        <p className={`text-lg mb-12 ${sourceSans3.className}`}>
-        </p>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="flex flex-wrap justify-center gap-4">
+        {/* grid gap-8 md:grid-cols-2 lg:grid-cols-3 */}
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-lg flex flex-col h-[350px] text-left border-t-4 border-transparent hover:border-sky-800 transition-all duration-300 ease-in-out"
+              className="bg-white p-6 rounded-lg shadow-lg flex flex-col w-[361px] lg:w-[405px] h-[350px] text-left border-t-4 border-transparent hover:border-sky-800 transition-all duration-300 ease-in-out"
             >
               <div className="flex items-start mb-4">
                 <img
-                  className="w-20 h-20 mr-4"
+                  className="w-22 h-22 mr-4"
                   src={benefit.icon}
                   alt="Icono de beneficio"
                 />

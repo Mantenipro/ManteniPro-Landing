@@ -9,7 +9,7 @@ export default function PriceSection() {
       price: '100',
       description:
         'Ideal para pequeñas empresas o proyectos que están comenzando.',
-      btnTxt: '¡Agenda tu Demo!',
+      btnTxt: 'Agenda tu Demo',
       icon: 'check-icon-dark.png',
       featureTitle: 'Incluye Básico:',
       features: [
@@ -37,7 +37,7 @@ export default function PriceSection() {
       price: '500',
       description:
         'Perfecto para equipos que necesitan más capacidad y características avanzadas.',
-      btnTxt: '¡Agenda tu Demo!',
+      btnTxt: 'Agenda tu Demo',
       icon: 'check-icon-light.png',
       featureTitle: 'Todo lo Básico, además de:',
       features: [
@@ -63,7 +63,7 @@ export default function PriceSection() {
 
   return (
     <section className='mx-auto max-w-screen-2xl px-4 py-16'>
-      <h2 className='mb-6 text-center text-4xl font-medium'>
+      <h2 className='mb-6 text-center text-2xl md:text-4xl font-medium'>
         ¡Conoce Mantenipro hoy mismo!
       </h2>
       <p

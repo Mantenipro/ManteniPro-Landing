@@ -4,6 +4,8 @@ import Hero from '@/components/Hero'
 import KeyBenefits from '@/components/KeyBenefits'
 import HowWork from '@/components/HowWork'
 import PriceSection from '@/components/PriceSection'
+import Footer from '@/components/Footer'
+import AboutUs from '@/components/AboutUs'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 const sourceSans3 = Source_Sans_3({ subsets: ['latin'] })
@@ -16,7 +18,9 @@ export default function Home() {
         <Hero />
         <KeyBenefits />
         <HowWork />
+        <AboutUs/>
         <PriceSection />
+        <Footer />
       </div>
     </main>
   )
