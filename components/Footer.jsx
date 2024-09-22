@@ -63,7 +63,11 @@ export default function Footer() {
             {socialMedia.map((social, index) => (
               <Link key={index} href={social.link}>
                 <div className='bg-red h-8 w-8 hover:h-9 hover:w-9 transition-all duration-1000'>
-                  <img className="w-full h-full" src={social.icon} alt='Social Media' />
+                  <img
+                    className='w-full h-full'
+                    src={social.icon}
+                    alt='Social Media'
+                  />
                 </div>
               </Link>
             ))}

@@ -15,11 +15,19 @@ export default function Hero() {
       </div>
 
       <div className='flex flex-wrap justify-center flex-row gap-[1rem] mt-[-15rem] md:mt-[-18rem] lg:mt-[-14rem]'>
-        <div className="flex md:hidden">
-            <img className='z-10  w-[350px] h-[600px]' src="/mobilehero.png" alt="" />
+        <div className='flex md:hidden'>
+          <img
+            className='z-10  w-[350px] h-[600px]'
+            src='/mobilehero.png'
+            alt=''
+          />
         </div>
         <div className='hidden md:flex justify-end'>
-          <img className='z-10 md:w-[715px] md:h-[417px]  lg:w-[1100px] lg:h-[609px]' src='/heroimg.svg' alt='' />
+          <img
+            className='z-10 md:w-[715px] md:h-[417px]  lg:w-[1100px] lg:h-[609px]'
+            src='/heroimg.svg'
+            alt=''
+          />
         </div>
       </div>
     </div>
