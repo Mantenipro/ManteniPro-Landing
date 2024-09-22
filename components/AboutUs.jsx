@@ -4,7 +4,7 @@ const sourceSans3 = Source_Sans_3({ subsets: ['latin'] })
 export default function AboutUs() {
   return (
     <section className='mx-auto my-14 flex w-full flex-col items-center justify-center gap-10 bg-[#e6eef8] p-4 md:px-10 lg:mt-36 lg:flex-row'>
-      <h2 className='mb-5 text-center text-3xl font-semibold text-slate-800 lg:hidden'>
+      <h2 className='mb-5 text-center text-2xl font-medium text-slate-800 lg:hidden'>
         Acerca de Mantenipro
       </h2>
       <div className='min-w-56 lg:-mt-28'>
