@@ -9,12 +9,11 @@ export default function Nav() {
       </div>
       <div className='md:mr-[44px] flex justify-center items-center'>
         <button className='rounded-xl text-azulPersonal border-[1px] border-azulPersonal p-[10px_20px_10px_20px]'>
-          <Link className="text-[16px] font-medium" href='/'>Agenda tu Demo</Link>
+          <Link className='text-[16px] font-medium' href='/'>
+            Agenda tu Demo
+          </Link>
         </button>
       </div>
     </nav>
   )
 }
-
-
-
