@@ -6,7 +6,7 @@ export default function Hero() {
           Simplifica el Mantenimiento de Tus Equipos con
           <p className='text-azulPersonal inline'> Mantenipro</p>
         </h1>
-        <div className='flex justify-center items-center lg:pr-[20rem] lg:pl-[20rem] mt-10'>
+        <div className='flex justify-center items-center lg:pr-[10rem] lg:pl-[10rem] mt-10'>
           <p className='text-[18px] lg:text-2xl text-center text-azulPersonal'>
             Tus clientes escanean, tú recibes la información. Así de fácil.
             Menos tiempo en llamadas y clientes más felices.
